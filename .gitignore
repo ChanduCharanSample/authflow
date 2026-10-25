@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment files (never commit real credentials)
+.env
+**/.env
+backend/.env
+frontend/.env
+
+# Build output
+frontend/dist/
+dist/
+
+# Logs and editor files
+*.log
+npm-debug.log*
+.DS_Store
+.vscode/
+.idea/
+
+# Test output
+coverage/
